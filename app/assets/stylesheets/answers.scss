@@ -1,0 +1,27 @@
+// Place all the styles related to the answers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+$gray: #F4F4F4;
+
+body {
+  background: white; // Using this variable
+}
+
+.banner {
+  background: $gray;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-left: 4px solid grey;
+  width:400px;
+  h1 {
+    font-size: 50px;
+  }
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+  &:hover {
+    color: black;
+  }
+}
